@@ -1,0 +1,14 @@
+title: EKS Fargate入門
+summary: EKS Fargateについての解説
+topics:
+  - aws
+  - kubernetes
+  - eks
+  - fargate
+published: false
+price: 0 # 有料の場合200〜5000
+# 本に含めるチャプターを順番に並べましょう
+chapters:
+  - overviews
+  - basics
+  - operations

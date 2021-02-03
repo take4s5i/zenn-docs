@@ -1,0 +1,11 @@
+{
+  "name": "zenn-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/take4s5i/zenn-docs.git",
+  "author": "TAKEHARA Shunpei <takehara-s@gnavi.co.jp>",
+  "license": "MIT",
+  "dependencies": {
+    "zenn-cli": "^0.1.72"
+  }
+}
