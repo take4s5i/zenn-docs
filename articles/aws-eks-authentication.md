@@ -166,6 +166,7 @@ Service AccountをIAMのアイデンティティとして利用出来るよう�
       "Action": "sts:AssumeRoleWithWebIdentity",
       "Condition": {
         "StringEquals": {
+          "${OIDC_PROVIDER}:aud": "sts.amazonaws.com",
           "${OIDC_PROVIDER}:sub": "system:serviceaccount:<my-namespace>:<my-service-account>"
         }
       }
